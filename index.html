@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Library</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Library</h1>
+        </div>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Books</th>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Read</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    
+    <div id="form" class="hidden">
+        <div>
+            <label for="title">Enter the book title: </label>
+            <input type="text" name="title" class="title">
+        </div>
+        <div>
+            <label for="author">Enter the book author: </label>
+            <input type="text" name="author" class="author">
+        </div>
+        <div>
+            <label for="pages">Enter the amount of pages the book has: </label>
+            <input type="number" name="pages" class="pages">
+        </div>
+        <div>
+            <label for="read">Have you read this book? </label>
+            <input type="checkbox" name="read" class="read" checked>
+        </div>
+        <div>
+            <button class="submit">Submit</button>
+        </div>
+    </div>
+    <section>
+        <div class="side">
+            <div class="new">
+                <button>Add a new book</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
